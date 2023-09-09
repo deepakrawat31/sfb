@@ -1,5 +1,6 @@
 <script>
    import { page } from "$app/stores";
+   import { onMount } from "svelte";
    import Card from "../../../lib/components/Card.svelte";
 
    export let data;

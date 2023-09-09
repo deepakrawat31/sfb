@@ -104,17 +104,24 @@
       </div>
    </div>
    <div
-      class="flex flex-col gap-4 items-stretch justify-between p-4 bg-slate-100/10 backdrop-blur rounded-md uppercase font-bold"
+      class="flex flex-col gap-4 items-stretch justify-between uppercase font-bold"
    >
-      <span class="text-xl text-emerald-400">winrate</span>
       <span
-         class="flex flex-col md:flex-row gap-1 md:gap-4 items-stretch justify-between"
+         class="text-xl text-emerald-400 p-4 bg-slate-100/10 backdrop-blur rounded-md"
+         >winrate</span
       >
-         <span class="flex items-stretch justify-between flex-1">
+      <span
+         class="flex flex-col md:flex-row gap-2 md:gap-4 items-stretch justify-between"
+      >
+         <span
+            class="flex items-stretch justify-between flex-1 p-4 bg-slate-100/10 backdrop-blur rounded-md"
+         >
             <span>turbo</span>
             <span class="text-emerald-400">{turbo_wr} %</span>
          </span>
-         <span class="flex items-stretch justify-between flex-1">
+         <span
+            class="flex items-stretch justify-between flex-1 p-4 bg-slate-100/10 backdrop-blur rounded-md"
+         >
             <span>pro</span>
             <span class="text-emerald-400">{pro_wr} %</span>
          </span>
